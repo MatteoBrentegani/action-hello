@@ -1,7 +1,7 @@
 name: "Hello-world"
 description: "Say hello-world and record the time"
 inputs:
-  who_to_greet:
+  who-to-greet:
     description: "name of the person to attach to Hello word"
     required: true
     default: "World"
@@ -13,4 +13,4 @@ inputs:
     using: "docker"
     image: "Dockerfile"
     args:
-      - ${{ inputs.who_to_greet }}
+      - ${{ inputs.who-to-greet }}
