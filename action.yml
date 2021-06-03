@@ -9,7 +9,7 @@ inputs:
   pepe:
     description: 'random word'
     required: false
-    default: 'ega
+    default: 'ega'
 outputs:
   time: # id of output
     description: 'The time we greeted you'
