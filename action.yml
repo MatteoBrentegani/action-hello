@@ -6,6 +6,10 @@ inputs:
     description: 'Who to greet'
     required: true
     default: 'World'
+  pepe:
+    description: 'random word'
+    required: false
+    default: 'ega
 outputs:
   time: # id of output
     description: 'The time we greeted you'
