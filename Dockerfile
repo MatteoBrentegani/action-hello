@@ -1,4 +1,4 @@
-FROM alphine:3.10
+FROM alphine
 
 COPY entrypoint.sh /entrypooint.sh
 
