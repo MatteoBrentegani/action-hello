@@ -1,0 +1,16 @@
+name: "Hello-world"
+description: "Say hello-world and record the time"
+inputs:
+  who_to_greet:
+    description: "name of the person to attach to Hello word"
+    required: true
+    default: "World"
+  output:
+    time:
+      description: "Current time"
+
+  runs:
+    using: "docker"
+    image: "Dockerfile"
+    args:
+      - ${{ inputs.who_to_greet }}
